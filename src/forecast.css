@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* navbar style */
+.navbar {
+  position: fixed;
+  z-index: 1;
+  font-family: "Carter One", cursive;
+  width: 100%;
+  background: #2f96a3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar h2 {
+  color: whitesmoke;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.navbar .fas {
+  color: whitesmoke;
+  font-size: 30px;
+  margin: 5px;
+}
+/*# sourceMappingURL=forecast.css.map */
